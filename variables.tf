@@ -29,11 +29,6 @@ variable "tags" {
   default     = {}
 }
 
-variable "subnet_id" {
-  description = "The subnet ID where the VM NIC should be attached."
-  type        = string
-}
-
 variable "vm_index" {
   description = "Index for this VM instance"
   type        = number
