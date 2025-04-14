@@ -7,4 +7,3 @@ tags = {
   Environment = "Development"
   Owner = "deepthi"
 }
-subnet_id = var.azurerm_subnet.subnet.id
