@@ -34,12 +34,10 @@ variable "vm_index" {
   type        = number
 }
 
-/*variable "backend_sa" {
-  description = "Name of the storage account"
-  type        = string
+variable "backend_sa" {
+  default = "azuredpbackendsa"
 }
 
 variable "backend_container" {
-    description = "Name of the storage container"
-    type        = string
-}*/
+    default = "tfstate"
+}
