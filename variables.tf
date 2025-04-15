@@ -1,5 +1,5 @@
 variable "env_name" {
-  description = "Environment name to prefix resource names, e.g., dev-pepsico"
+  description = "Environment name for the VM"
   type        = string
 }
 
