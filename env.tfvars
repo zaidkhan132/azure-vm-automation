@@ -5,5 +5,5 @@ vm_size = "Standard_B1s"
 os_disk_size = 30
 tags = {
   Environment = "Development"
-  Owner = "deepthi"
+  Owner = "zaid"
 }
