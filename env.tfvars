@@ -1,4 +1,4 @@
-env_name = "dev"
+env_name = var.env_name
 location = "East US"
 resource_group_name = "dev-app-rg"
 vm_size = "Standard_B1s"
